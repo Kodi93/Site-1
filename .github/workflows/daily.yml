@@ -1,7 +1,10 @@
 name: Draft posts (PR)
+
 on:
-  schedule: [{ cron: "0 13 * * *" }]  # 09:00 ET
+  schedule:
+    - cron: "0 13 * * *"   # 09:00 ET
   workflow_dispatch:
+
 jobs:
   draft:
     runs-on: ubuntu-latest
@@ -10,17 +13,23 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
-        with: { python-version: "3.11" }
-      - run: pip install jinja2 pyyaml feedparser readability-lxml requests markdownify python-slugify lxml
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install jinja2 pyyaml feedparser readability-lxml requests markdownify python-slugify lxml
+
       - name: Generate posts
         run: python automation/content_bot.py
-      - name: Create PR
-        env:
-          BRANCH: auto/post-$(date -u +%F)
-        run: |
-          git checkout -b "$BRANCH"
-          git add -A
-          git diff --cached --quiet || git commit -m "draft: posts $(date -u +%F)"
-          git push -u origin "$BRANCH" || true
-          echo "Open a PR from $BRANCH to main if not auto-created."
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "draft: posts $(date -u +%F)"
+          title: "Daily drafts $(date -u +%F)"
+          body: "Auto-drafted posts for review"
+          branch: "auto/post-$(date -u +%F)"
+          delete-branch: true
