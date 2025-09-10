@@ -1,0 +1,5 @@
+programs:
+  vpn_vendor:
+    link: "https://example-vpn.com/?ref=YOURID&utm_source=blog"
+  training_partner:
+    link: "https://partner.com/course?aff=YOURID"

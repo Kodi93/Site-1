@@ -1,0 +1,10 @@
+baseURL = "https://<yourproject>.netlify.app"
+title = "Your Site"
+theme = "ananke"
+paginate = 12
+
+[params]
+  description = "Automated, reviewed, high-signal posts"
+
+[markup.goldmark.renderer]
+  unsafe = true

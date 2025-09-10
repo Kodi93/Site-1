@@ -1,0 +1,26 @@
+name: PR quality checks
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install textstat
+      - name: Enforce gates
+        run: |
+          python - <<'PY'
+          import glob, re, textstat, sys
+          bad=[]
+          for f in glob.glob("site/content/**/*.md", recursive=True):
+            body=open(f,encoding="utf-8").read()
+            words=len(re.findall(r"\w+", body))
+            if words<700: bad.append((f,"len<700"))
+            if "## " not in body: bad.append((f,"no_sections"))
+            if textstat.flesch_reading_ease(body)<40: bad.append((f,"hard_read"))
+          if bad:
+            print("FAILED:", bad); sys.exit(1)
+          PY

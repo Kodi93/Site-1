@@ -1,0 +1,9 @@
+topics:
+  - compTIA A+ power supplies
+  - Security+ threat actors
+  - Network+ subnetting examples
+sources:
+  rss:
+    - https://www.bleepingcomputer.com/feed/
+    - https://www.darkreading.com/rss.xml
+    - https://www.reddit.com/r/CompTIA/.rss

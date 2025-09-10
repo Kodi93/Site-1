@@ -1,0 +1,8 @@
+<!-- Usage: {{< aff "vpn_vendor" "Try VPN Deal" >}} -->
+{{ $id := .Get 0 }}
+{{ $label := .Get 1 }}
+{{ $data := site.Data.affiliates }}
+{{ if isset $data "programs" }}
+  {{ $p := index $data.programs $id }}
+  {{ if $p }}<a href="{{ $p.link }}" rel="sponsored noopener" target="_blank">{{ $label }}</a>{{ end }}
+{{ end }}
