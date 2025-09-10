@@ -1,5 +1,6 @@
-programs:
-  vpn_vendor:
-    link: "https://example-vpn.com/?ref=YOURID&utm_source=blog"
-  training_partner:
-    link: "https://partner.com/course?aff=YOURID"
+posts_per_day: 2
+min_words: 700
+internal_links_per_post: 3
+reject_similarity_threshold: 0.75
+max_sources_per_post: 3
+tags: ["security","certification"]
