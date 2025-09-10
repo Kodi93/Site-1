@@ -1,8 +1,9 @@
-<!-- Usage: {{< aff "vpn_vendor" "Try VPN Deal" >}} -->
-{{ $id := .Get 0 }}
-{{ $label := .Get 1 }}
-{{ $data := site.Data.affiliates }}
-{{ if isset $data "programs" }}
-  {{ $p := index $data.programs $id }}
-  {{ if $p }}<a href="{{ $p.link }}" rel="sponsored noopener" target="_blank">{{ $label }}</a>{{ end }}
-{{ end }}
+{{- $id := .Get 0 -}}
+{{- $label := .Get 1 | default $id -}}
+{{- $data := .Site.Data.affiliates -}}
+{{- $prog := index $data.programs $id | default dict -}}
+{{- with $prog.link -}}
+  <a href="{{ . }}" rel="sponsored noopener" target="_blank">{{ $label }}</a>
+{{- else -}}
+  <!-- aff: program {{ $id }} not found -->
+{{- end -}}
