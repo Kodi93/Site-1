@@ -1,9 +1,16 @@
 topics:
-  - compTIA A+ power supplies
-  - Security+ threat actors
-  - Network+ subnetting examples
-sources:
-  rss:
-    - https://www.bleepingcomputer.com/feed/
-    - https://www.darkreading.com/rss.xml
-    - https://www.reddit.com/r/CompTIA/.rss
+  - cybersecurity
+  - ethical hacking
+  - penetration testing
+  - digital forensics
+  - cloud security
+  - network administration
+  - DevOps practices
+  - data privacy
+  - phishing awareness
+  - ransomware trends
+  - IoT security
+  - mobile app security
+  - zero trust architecture
+  - artificial intelligence in security
+  - blockchain applications
