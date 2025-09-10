@@ -2,7 +2,7 @@ name: Draft posts (PR)
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # 09:00 ET
+    - cron: "0 13 * * *"   # 09:00 ET daily
   workflow_dispatch:
 
 jobs:
@@ -11,6 +11,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -18,18 +19,22 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install Python deps
         run: |
+          pip install --upgrade pip
           pip install jinja2 pyyaml feedparser readability-lxml requests markdownify python-slugify lxml
 
       - name: Generate posts
         run: python automation/content_bot.py
 
+      - name: Set DATE env
+        run: echo "DATE=$(date -u +%F)" >> $GITHUB_ENV
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "draft: posts $(date -u +%F)"
-          title: "Daily drafts $(date -u +%F)"
+          commit-message: "draft: posts ${{ env.DATE }}"
+          title: "Daily drafts ${{ env.DATE }}"
           body: "Auto-drafted posts for review"
-          branch: "auto/post-$(date -u +%F)"
+          branch: "auto/post-${{ env.DATE }}"
           delete-branch: true
