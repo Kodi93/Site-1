@@ -1,7 +1,6 @@
 [build]
-  command = "hugo --gc --minify"
+  command = "hugo -s site --gc --minify"
   publish = "site/public"
 
 [build.environment]
   HUGO_VERSION = "0.128.1"
-  HUGO_ENABLEGITINFO = "true"
