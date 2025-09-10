@@ -1,5 +1,5 @@
-baseURL = "https://your-site.netlify.app/"
-title = "My Auto Blog"
+baseURL = "https://infotechno.netlify.app/"
+title = "An Information Technology Blog and News Center"
 paginate = 12
 
 # Enable unsafe HTML rendering (needed for shortcodes/ads)
