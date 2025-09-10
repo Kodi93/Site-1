@@ -12,5 +12,23 @@ topics:
   - IoT security
   - mobile app security
   - zero trust architecture
-  - artificial intelligence in security
-  - blockchain applications
+  - AI in security
+  - blockchain security
+
+sources:
+  rss:
+    - https://www.bleepingcomputer.com/feed/
+    - https://www.darkreading.com/rss.xml
+    - https://krebsonsecurity.com/feed/
+    - https://feeds.feedburner.com/TheHackersNews
+    - https://www.schneier.com/blog/atom.xml
+    - https://cloud.google.com/blog/topics/security/rss
+    - https://aws.amazon.com/blogs/security/feed/
+    - https://microsoft.com/security/blog/feed/
+    - https://unit42.paloaltonetworks.com/feed/
+    - https://blog.talosintelligence.com/feed/
+    - https://isc.sans.edu/rssfeed.xml
+    - https://www.reddit.com/r/netsec/.rss
+    - https://www.reddit.com/r/cybersecurity/.rss
+    - https://www.reddit.com/r/CompTIA/.rss
+    - https://nakedsecurity.sophos.com/feed/
