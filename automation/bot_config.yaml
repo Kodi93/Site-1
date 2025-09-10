@@ -1,5 +1,5 @@
 posts_per_day: 2
-min_words: 700
+min_words: 300
 internal_links_per_post: 3
 reject_similarity_threshold: 0.75
 max_sources_per_post: 3
