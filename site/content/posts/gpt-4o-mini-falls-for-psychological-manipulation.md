@@ -1,6 +1,6 @@
 +++
 title = "GPT-4o-mini Falls for Psychological Manipulation"
-date = "2025-09-10T20:49:12.055067Z"
+date = "2025-09-15T13:21:32.845956Z"
 tags = ["security", "certification"]
 description = "<p>Interesting <a href="https://arstechnica.com/science/2025/09/these-psychological-tricks-can-get-llms-to-respond-to-forbidden-prompts/">experiment</"
 canonicalURL = "https://www.schneier.com/blog/archives/2025/09/gpt-4o-mini-falls-for-psychological-manipulation.html"
@@ -22,4 +22,4 @@ Powered by DuckDuckGo Home Blog Interesting experiment : To design their experim
 
 {{< aff "vpn_vendor" "Try a VPN deal" >}}
 
-*Updated: 2025-09-10*
+*Updated: 2025-09-15*
