@@ -1,0 +1,25 @@
++++
+title = "Salesforce Patches Critical ForcedLeak Bug Exposing CRM Data via AI Prompt Injection"
+date = "2025-09-30T13:23:45.371088Z"
+tags = ["security", "certification"]
+description = "Cybersecurity researchers have disclosed a critical flaw impacting Salesforce Agentforce, a platform for building artificial intelligence (AI) agents,"
+canonicalURL = "https://thehackernews.com/2025/09/salesforce-patches-critical-forcedleak.html"
++++
+
+Salesforce Patches Critical ForcedLeak Bug Exposing CRM Data via AI Prompt Injection — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+Cybersecurity researchers have disclosed a critical flaw impacting Salesforce Agentforce , a platform for building artificial intelligence (AI) agents, that could allow attackers to potentially exfiltrate sensitive data from its customer relationship management (CRM) tool by means of an indirect prompt injection. The vulnerability has been codenamed ForcedLeak (CVSS score: 9.4) by Noma Security, which discovered and reported the problem on July 28, 2025. It impacts any organization using Salesforce Agentforce with the Web-to-Lead functionality enabled. "This vulnerability demonstrates how AI agents present a fundamentally different and expanded attack surface compared to traditional prompt-response systems," Sasi Levi, security research lead at Noma, said in a report shared with The Hacker News. One of the most severe threats facing generative artificial intelligence (GenAI) systems today is indirect prompt injection , which occurs when malicious instructions are inserted into external data sources accessed by the service, effectively causing it to generate otherwise prohibited content or take unintended actions. The attack path demonstrated by Noma is deceptively simple in that it coaxes the Description field in Web-to-Lead form to run malicious instructions by means of a prompt injection, allowing a threat actor to leak sensitive data and exfiltrate it to a Salesforce-related allowlisted domain that had expired and become available for purchase for as little as $5. This takes place over five steps - "By exploiting weaknesses in context validation, overly permissive AI model behavior, and a Content Security Policy (CSP) bypass, attackers can create malicious Web-to-Lead submissions that execute unauthorized commands when processed by Agentforce," Noma said. "The LLM, operating as a straightforward execution engine, lacked the ability to distinguish between legitimate data loaded into its context and malicious instructions that should only be executed from trusted sources, resulting in critical sensitive data leakage." Salesforce has since re-secured the expired domain, rolled out patches that prevent output in Agentforce and Einstein AI agents from being sent to untrusted URLs by enforcing a URL allowlist mechanism. "Our underlying services powering Agentforce will enforce the Trusted URL allowlist to ensure no malicious links are called or generated through potential prompt injection," the company said in an alert issued earlier this month. "This provides a crucial defense-in-depth control against sensitive data escaping customer systems via external requests after a successful prompt injection." Besides applying Salesforce's recommended actions to enforce Trusted URLs, users are recommended to audit existing lead data for suspicious submissions containing unusual instructions, implement strict input validation to detect possible prompt injection, and sanitize data from untrusted sources. "The ForcedLeak vulnerability highlights the importance of proactive AI security and governance," Levi said. "It serves as a strong reminder that even a low-cost discovery can prevent millions in potential breach damages." In a statement shared with The Hacker News, Itay Ravia, head of Aim Labs, described ForcedLeak as a variant of the EchoLeak attack, but one that's specifically geared towards Salesforce. "When Aim Labs disclosed EchoLeak (CVE-2025-32711), the first zero-click AI vulnerability enabling data exfiltration, we said that this class of vulnerability was not isolated to Microsoft," Ravia said. "In our investigations it has become quite clear that many other agent platforms are also susceptible. ForcedLeak is a subset of these same EchoLeak primitives. These vulnerabilities are endemic to RAG-based agents and we will see more of them in popular agents due to poor understanding of dependencies and the need for guardrails." Join our free webinar to master AI-powered workflows—practical steps for secure, scalable automation. Join us this Halloween for a live webinar exposing real password breaches and how to stop them. Get the latest news, expert insights, exclusive resources, and strategies from industry leaders – all for free.
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2025-09-30*
