@@ -1,0 +1,25 @@
++++
+title = "ToddyCat’s New Hacking Tools Steal Outlook Emails and Microsoft 365 Access Tokens"
+date = "2025-11-25T13:28:15.084767Z"
+tags = ["security", "certification"]
+description = "The threat actor known as ToddyCat has been observed adopting new methods to obtain access to corporate email data belonging to target companies, incl"
+canonicalURL = "https://thehackernews.com/2025/11/toddycats-new-hacking-tools-steal.html"
++++
+
+ToddyCat’s New Hacking Tools Steal Outlook Emails and Microsoft 365 Access Tokens — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+The threat actor known as ToddyCat has been observed adopting new methods to obtain access to corporate email data belonging to target companies, including using a custom tool dubbed TCSectorCopy. "This attack allows them to obtain tokens for the OAuth 2.0 authorization protocol using the user's browser, which can be used outside the perimeter of the compromised infrastructure to access corporate mail," Kaspersky said in a technical breakdown. ToddyCat, assessed to be active since 2020, has a track record of targeting various organizations in Europe and Asia with various tools, Samurai and TomBerBil to retain access and steal cookies and credentials from web browsers like Google Chrome and Microsoft Edge. Earlier this April, the hacking group was attributed to the exploitation of a security flaw in ESET Command Line Scanner (CVE-2024-11859, CVSS score: 6.8) to deliver a previously undocumented malware codenamed TCESB. Kaspersky said it detected a PowerShell variant of TomBerBil (as opposed to C++ and C# versions flagged before) in attacks that took place between May and June 2024, which comes with capabilities to extract data from Mozilla Firefox. A notable feature of this version is that it runs on domain controllers from a privileged user and can access browser files via shared network resources using the SMB protocol. The malware, the company added, was launched by means of a scheduled task that executed a PowerShell command. Specifically, it searches for browser history, cookies, and saved credentials in the remote host over SMB. While the copied files containing the information are encrypted using the Windows Data Protection API ( DPAPI ), TomBerBil is equipped to capture the encryption key necessary to decrypt the data. "The previous version of TomBerBil ran on the host and copied the user token. As a result, DPAPI was used to decrypt the master key in the user's current session, and subsequently the files themselves," researchers said. "In the newer server version, TomBerBil copies files containing user encryption keys that are used by DPAPI. Using these keys, as well as the user's SID and password, attackers can decrypt all copied files locally." The threat actors have also been found to access corporate emails stored in local Microsoft Outlook storage in the form of OST (short for Offline Storage Table) files using TCSectorCopy ("xCopy.exe"), bypassing restrictions that limit access to such files when the application is running. Written in C++, TCSectorCopy accepts as input a file to be copied (in this case, OST files) and then proceeds to open the disk as a read-only device and sequentially copy the file contents sector by sector. Once the OST files are written to a path of the attacker's choosing, the contents of the electronic correspondence are extracted using XstReader , an open-source viewer for Outlook OST and PST files. Another tactic adopted by ToddyCat involves efforts to obtain access tokens directly from memory in cases where victim organizations used the Microsoft 365 cloud service. The JSON web tokens (JWTs) are obtained through an open-source C# tool named SharpTokenFinder , which enumerates Microsoft 365 applications for plain text authentication tokens. But the threat actor is said to have faced a setback in at least one investigated incident after security software installed on the system blocked SharpTokenFinder's attempt to dump the Outlook.exe process. To get around this restriction, the operator used the ProcDump tool from the Sysinternals package with specific arguments to take a memory dump of the Outlook process. "The ToddyCat APT group is constantly developing its techniques and looking for those that would hide activity to gain access to corporate correspondence within the compromised infrastructure," Kaspersky said. Your patch pipeline shouldn't be a gamble — build the guardrails that keep speed from becoming risk. Learn how to protect cloud workloads, control access, and meet compliance requirements — without slowing innovation. Get the latest news, expert insights, exclusive resources, and strategies from industry leaders – all for free.
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2025-11-25*
