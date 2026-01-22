@@ -1,0 +1,25 @@
++++
+title = "Chainlit AI Framework Flaws Enable Data Theft via File Read and SSRF Bugs"
+date = "2026-01-22T13:17:09.863684Z"
+tags = ["security", "certification"]
+description = "Security vulnerabilities were uncovered in the popular open-source artificial intelligence (AI) framework Chainlit that could allow attackers to steal"
+canonicalURL = "https://thehackernews.com/2026/01/chainlit-ai-framework-flaws-enable-data.html"
++++
+
+Chainlit AI Framework Flaws Enable Data Theft via File Read and SSRF Bugs — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+Security vulnerabilities were uncovered in the popular open-source artificial intelligence (AI) framework Chainlit that could allow attackers to steal sensitive data, which may allow for lateral movement within a susceptible organization. Zafran Security said the high-severity flaws, collectively dubbed ChainLeak , could be abused to leak cloud environment API keys and steal sensitive files, or perform server-side request forgery (SSRF) attacks against servers hosting AI applications. Chainlit is a framework for creating conversational chatbots. According to statistics shared by the Python Software Foundation, the package has been downloaded over 220,000 times over the past week. It has attracted a total of 7.3 million downloads to date. Details of the two vulnerabilities are as follows - "The two Chainlit vulnerabilities can be combined in multiple ways to leak sensitive data, escalate privileges, and move laterally within the system," Zafran researchers Gal Zaban and Ido Shani said. "Once an attacker gains arbitrary file read access on the server, the AI application's security quickly begins to collapse. What initially appears to be a contained flaw becomes direct access to the system's most sensitive secrets and internal state." For instance, an attacker can weaponize CVE-2026-22218 to read "/proc/self/environ," allowing them to glean valuable information such as API keys, credentials, and internal file paths that could be used to burrow deeper into the compromised network and even gain access to the application source code. Alternatively, it can be used to leak database files if the setup uses SQLAlchemy with an SQLite backend as its data layer. What's more, if Chainlit is deployed on an Amazon Web Services (AWS) EC2 instance with IMDSv1 enabled, the SSRF vulnerability can be abused to access the link-local address (169.254.169[.]254) and retrieve role endpoints, enabling opportunities for lateral movement within the cloud environment. Following responsible disclosure on November 23, 2025, both vulnerabilities were addressed by Chainlit in version 2.9.4 released on December 24, 2025. "As organizations rapidly adopt AI frameworks and third-party components, long-standing classes of software vulnerabilities are being embedded directly into AI infrastructure," Zafran said. "These frameworks introduce new and often poorly understood attack surfaces, where well-known vulnerability classes can directly compromise AI-powered systems." The disclosure comes as BlueRock disclosed a similar SSRF vulnerability in Microsoft's MarkItDown Model Context Protocol (MCP) server dubbed MCP fURI that enables arbitrary calling of URI resources, exposing organizations to privilege escalation, SSRF, and data leakage attacks. The shortcoming affects the server when running in an Amazon Web Services (AWS) EC2 instance using IDMSv1 . "This vulnerability allows an attacker to execute the Markitdown MCP tool convert\_to\_markdown to call an arbitrary uniform resource identifier (URI)," BlueRock said . "The lack of any boundaries on the URI allows any user, agent, or attacker calling the tool to access any HTTP or file resource." "When providing a URI to the Markitdown MCP server, this can be used to query the instance metadata of the server. A user can then obtain credentials to the instance if there is a role associated, giving you access to the AWS account, including the access and secret keys." The agentic AI security company said its analysis of more than 7,000 MCP servers found that over 36.7% of them are likely exposed to similar SSRF vulnerabilities. To mitigate the risk posed by the issue, it's advised to use IMDSv2 to secure against SSRF attacks, implement private IP blocking, restrict access to metadata services, and create an allowlist to prevent data exfiltration. Discover how leading MSSPs use AI to automate security management, boost margins, and scale services without extra headcount. Join cybersecurity leaders Kumar Saurabh and Francis Odum to learn how to build, buy, and automate smarter for a modern, efficient SOC. Get the latest news, expert insights, exclusive resources, and strategies from industry leaders – all for free.
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-01-22*
