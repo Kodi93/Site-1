@@ -1,0 +1,25 @@
++++
+title = "Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language Models"
+date = "2026-02-09T13:29:23.935519Z"
+tags = ["security", "certification"]
+description = "Microsoft on Wednesday said it built a lightweight scanner that it said can detect backdoors in open-weight large language models (LLMs) and improve t"
+canonicalURL = "https://thehackernews.com/2026/02/microsoft-develops-scanner-to-detect.html"
++++
+
+Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language Models — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+Microsoft on Wednesday said it built a lightweight scanner that it said can detect backdoors in open-weight large language models (LLMs) and improve the overall trust in artificial intelligence (AI) systems. The tech giant's AI Security team said the scanner leverages three observable signals that can be used to reliably flag the presence of backdoors while maintaining a low false positive rate. "These signatures are grounded in how trigger inputs measurably affect a model's internal behavior, providing a technically robust and operationally meaningful basis for detection," Blake Bullwinkel and Giorgio Severi said in a report shared with The Hacker News. LLMs can be susceptible to two types of tampering: model weights, which refer to learnable parameters within a machine learning model that undergird the decision-making logic and transform input data into predicted outputs, and the code itself. Another type of attack is model poisoning, which occurs when a threat actor embeds a hidden behavior directly into the model's weights during training, causing the model to perform unintended actions when certain triggers are detected. Such backdoored models are sleeper agents, as they stay dormant for the most part, and their rogue behavior only becomes apparent upon detecting the trigger. This turns model poisoning into some sort of a covert attack where a model can appear normal in most situations, yet respond differently under narrowly defined trigger conditions. Microsoft's study has identified three practical signals that can indicate a poisoned AI model - "Our approach relies on two key findings: first, sleeper agents tend to memorize poisoning data, making it possible to leak backdoor examples using memory extraction techniques," Microsoft said in an accompanying paper. "Second, poisoned LLMs exhibit distinctive patterns in their output distributions and attention heads when backdoor triggers are present in the input." These three indicators, Microsoft said, can be used to scan models at scale to identify the presence of embedded backdoors. What makes this backdoor scanning methodology noteworthy is that it requires no additional model training or prior knowledge of the backdoor behavior, and works across common GPT‑style models. "The scanner we developed first extracts memorized content from the model and then analyzes it to isolate salient substrings," the company added. "Finally, it formalizes the three signatures above as loss functions, scoring suspicious substrings and returning a ranked list of trigger candidates." The scanner is not without its limitations. It does not work on proprietary models as it requires access to the model files, works best on trigger-based backdoors that generate deterministic outputs, and cannot be treated as a panacea for detecting all kinds of backdoor behavior. "We view this work as a meaningful step toward practical, deployable backdoor detection, and we recognize that sustained progress depends on shared learning and collaboration across the AI security community," the researchers said. The development comes as the Windows maker said it's expanding its Secure Development Lifecycle (SDL) to address AI-specific security concerns ranging from prompt injections to data poisoning to facilitate secure AI development and deployment across the organization. "Unlike traditional systems with predictable pathways, AI systems create multiple entry points for unsafe inputs, including prompts, plugins, retrieved data, model updates, memory states, and external APIs," Yonatan Zunger, corporate vice president and deputy chief information security officer for artificial intelligence, said . "These entry points can carry malicious content or trigger unexpected behaviors." "AI dissolves the discrete trust zones assumed by traditional SDL. Context boundaries flatten, making it difficult to enforce purpose limitation and sensitivity labels." Join Wiz experts to see how AI and context-aware forensics make cloud investigations faster, clearer, and more reliable. Quantum computers could soon break today’s encryption—join Zscaler’s webinar to learn how post-quantum cryptography keeps your data safe for the future. Get the latest news, expert insights, exclusive resources, and strategies from industry leaders – all for free.
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-02-09*
