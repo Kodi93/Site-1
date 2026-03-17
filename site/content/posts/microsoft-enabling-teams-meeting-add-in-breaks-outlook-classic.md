@@ -1,0 +1,25 @@
++++
+title = "Microsoft: Enabling Teams Meeting add-in breaks Outlook Classic"
+date = "2026-03-17T13:29:29.865294Z"
+tags = ["security", "certification"]
+description = "Microsoft is working to address a known issue that renders the classic Outlook email client unusable for users who have enabled the Microsoft Teams Me"
+canonicalURL = "https://www.bleepingcomputer.com/news/microsoft/microsoft-enabling-teams-meeting-add-in-breaks-outlook-classic/"
++++
+
+Microsoft: Enabling Teams Meeting add-in breaks Outlook Classic — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+UK’s Companies House confirms security flaw exposed business data AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code FBI seeks victims of Steam games used to spread malware Microsoft pulls Samsung app blocking Windows C: drive from Store LeakNet ransomware uses ClickFix, Deno runtime in stealthy attacks Microsoft shares fix for Windows C: drive access issues on Samsung PCs Get lifetime access to Headway’s book summary app for $50.99 New Windows 11 hotpatch fixes Bluetooth device visibility issue How to access the Dark Web using the Tor Browser How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to use the Windows Registry Editor How to backup and restore the Windows Registry How to start Windows in Safe Mode How to remove a Trojan, Virus, Worm, or other Malware How to show hidden files in Windows 7 How to see hidden files in Windows Qualys BrowserCheck STOPDecrypter AuroraDecrypter FilesLockerDecrypter AdwCleaner ComboFix RKill Junkware Removal Tool eLearning IT Certification Courses Gear + Gadgets Security Best VPNs How to change IP address Access the dark web safely Best VPN for YouTube Microsoft is working to address a known issue that renders the classic Outlook email client unusable for users who have enabled the Microsoft Teams Meeting Add-in. "Some users may be unable to use Microsoft Outlook Classic while the Microsoft Teams Meeting Add-in is enabled," Microsoft said in an admin center update under EX1254044. While it didn't share more details about the root cause, Microsoft says the issue is due to a previous Outlook build. To temporarily fix this bug, affected users are advised to update Outlook or to perform an Online Repair for click-to-run installs (which will reinstall all Office applications). "Users attempting to use Microsoft Outlook Classic while the Microsoft Teams Meeting Add-in and previous Outlook build version is enabled may be impacted," Microsoft added. "We've identified that a previous Outlook build version is causing impact to occur. We're working with your representatives to ensure that the latest Outlook version is enabled, to mitigate impact." Microsoft is also investigating several issues that cause email connection problems in the classic Outlook desktop client and trigger 0x800CCC0F and 0x80070057 errors during synchronization with Gmail and Yahoo accounts. In January, it addressed another classic Outlook issue caused by the December 2025 updates that prevented Microsoft 365 customers from opening encrypted emails . On Monday, Redmond also mitigated a widespread Exchange Online outage (EX1253275) that prevented customers from accessing their mailboxes and calendars via Outlook on the web, Outlook desktop, Exchange ActiveSync, and other Exchange Online connection protocols. This is a developing story... Malware is getting smarter. The Red Report 2026 reveals how new threats use math to detect sandboxes and hide in plain sight. Download our analysis of 1.1 million malicious samples to uncover the top 10 techniques and see if your security stack is blinded. Microsoft fixes Outlook bug blocking access to encrypted emails Microsoft investigates classic Outlook sync and connection issues Microsoft says bug in classic Outlook hides the mouse pointer Microsoft shares workaround for Outlook freezes after Windows update Microsoft Exchange Online outage blocks access to mailboxes Not a member yet? Register Now Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw Stryker attack wiped tens of thousands of devices, no malware needed AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code Uncover shadow AI apps, users, and risky data sharing. Get started in 5 min. Are your loyalty accounts being sold underground? Learn how Flare monitors this. Cut VMware migration time by 60% with Acronis—move workloads faster, with less downtime. 80% of attacks focus on evasion. Get the Red Report 2026 to test your stack. Terms of Use - Privacy Policy - Ethics Statement - Affiliate Disclosure Copyright @ 2003 - 2026 Bleeping Computer ® LLC - All Rights Reserved Not a member yet? Register Now Read our posting guidelinese to learn what content is prohibited.
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-03-17*
