@@ -1,0 +1,30 @@
++++
+title = "Sen. Sanders Talks to Claude About AI and Privacy"
+date = "2026-04-17T13:29:54.804856Z"
+tags = ["security", "certification"]
+description = "<p>Claude is actually <a href="https://www.youtube.com/watch?v=h3AtWdeu_G0">pretty good</a> on the issues.</p>"
+canonicalURL = "https://www.schneier.com/blog/archives/2026/04/sen-sanders-talks-to-claude-about-ai-and-privacy.html"
++++
+
+Sen. Sanders Talks to Claude About AI and Privacy — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+Powered by DuckDuckGo Home Blog Claude is actually pretty good on the issues. Tags: AI , privacy , video Posted on April 10, 2026 at 6:41 AM • 10 Comments Zed • April 10, 2026 10:58 AM It’s obvious that Sanders’s team prompted Claude to speak in a certain way. Quite manipulative. Would have been more credible if they left out the praise Claude had for Sanders at the end, but they need to convince people that Sanders has the answers (despite being in Government and part of the problem for decades now). Chris Devers • April 10, 2026 11:47 AM Claude is actually pretty good on the issues. Sure, but it knew it was talking to Senator Bernie Sanders. What would it say if it knew it was being interviewed by a similarly-prominent person on the other end of the political spectrum? Does it really “think” the things it told him, or is the Agreeability Machine just showing off how very agreeable it can be? lurker • April 10, 2026 1:09 PM @Chris Devers +1 @Bruce “Claude is actually pretty good on the issues.” Sure, but I would expect Sen. Bernie Sanders to be pretty good on the issues too. Did he really learn anything from that conversation? Or was it just a political statement? and who was his target audience? would they listen to or believe any of it? Winter • April 10, 2026 4:30 PM @zed It’s obvious that Sanders’s team prompted Claude to speak in a certain way. Quite manipulative Maybe that was the point of the exercise, showing AI is manipulative and manipulated? Clark Gaylord • April 10, 2026 5:50 PM No Bruce, Claude doesn’t know about the issues. What Claude knows is how to make Bernie happy. Bernie doesn’t take an honest investigative approach, interrogating Claude to defend itself, but instead uses his natural rhetorical ability to lead a willing witness. That’s what LLMs do. I did an experiment where I pushed Claude (using Claude, naturally) by impersonating William F Buckley in pushing back on Bernie’s interview. The results were … illuminating https://cgaylord.wordpress.com/2026/04/10/the-witness-is-compromised-bernie-sanders-bruce-schneier-and-what-the-ai-actually-did/ lurker • April 10, 2026 6:07 PM A couple of different viewpoints: Dex Hunter-Torricke, ex Meta/FB https://www.rnz.co.nz/national/programmes/saturday/audio/2019030533/the-tech-insider-who-s-turned-his-back-on-the-industry How to develop and use AI for the Eastern hemisphere https://radio.cgtn.com/podcast/news/5/HumanX-AI-2026-Intelligent-infrastructure/2719725 anonymouse random • April 10, 2026 8:05 PM @Clark Gaylord: It’s worse than that. LLMs have no concept of truth, so everything they say is bullshit. Much of it is accurate bullshit, because the most linguistically-likely token stream is the most likely to be correct in a given interaction. But it is still bullshit. And sometimes the bullshit is false, or even nonsensical, and we call the result a “hallucination”. But the fact is that LLMs are “hallucinating” everything, all the time. Clive Robinson • April 11, 2026 3:40 AM @ anonymouse random, ALL, With regards, “LLMs have no concept of truth, so everything they say is bullshit.” The correct “term of art” in the domain is, “Soft bullshit” As opposed to, “Hard bullshit” The former being “undeliberate” and lacking “intent to deceive”. With the latter being “deliberate” and driven by usually harmful intent to deceive. These terms of art were invented and popularized by the philosopher Harry Frankfurt in his 1986 essay and later in the 2005 Princeton Press book most claim to know “On Bullshit”. More recently a small group of University of Glasgow philosophers lead by Michael Townsen Hicks published a paper, “ChatGPT is bullshit” You can find it and a rebuttal on Open Access at, https://link.springer.com/article/10.1007/s10676-024-09775-5 Enjoy. Rontea • April 13, 2026 9:41 AM Promising; thank you for posting it. Wicked Lad • April 13, 2026 12:37 PM I got a kick out of this. As others have commented, Sanders’s script seemed well planned to elicit the correct answers, and Claude’s sycophancy was shameless…literally. Also, I felt the irony of watching this earnest discussion of privacy and large tech on YouTube. I didn’t sign in to watch it, but still Subscribe to comments on this entry Blog moderation policy Name Email URL: Remember personal info? Fill in the blank: the name of this blog is Schneier on \_\_\_\_\_\_\_\_\_\_\_ (required): Allowed HTML  [•  **•  ****•  •
+
+1. •
+   > ```
+   >  Markdown Extra syntax via https://michelf.ca/projects/php-markdown/extra/ Δ document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() ); Sidebar photo of Bruce Schneier by Joe MacInnis. Powered by WordPress Hosted by Pressable I am a public-interest technologist , working at the intersection of security, technology, and people. I've been writing about security issues on my blog since 2004, and in my monthly newsletter since 1998. I'm a fellow and lecturer at Harvard's Kennedy School , a board member of EFF , and the Chief of Security Architecture at Inrupt, Inc. This personal website expresses the opinions of none of those organizations. More Essays More Tags More Books
+   > ```******](URL)
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-04-17*
