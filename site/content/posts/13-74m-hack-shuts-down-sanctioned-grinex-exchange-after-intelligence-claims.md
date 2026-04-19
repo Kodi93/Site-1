@@ -1,0 +1,25 @@
++++
+title = "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims"
+date = "2026-04-19T13:25:26.480575Z"
+tags = ["security", "certification"]
+description = "Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blam"
+canonicalURL = "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html"
++++
+
+$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack. The exchange said it fell victim to what it described as a large-scale cyber attack that bore hallmarks of foreign intelligence agency involvement. This attack led to the theft of over 1 billion rubles in user funds. "Digital forensic evidence and the nature of the attack point to an unprecedented level of resources and technological sophistication – capabilities typically available exclusively to the agencies of hostile states," the company said in a statement posted on its website. "Preliminary findings suggest the attack was coordinated with the specific objective of inflicting direct damage upon Russia's financial sovereignty." A spokesperson for the company went on to state that the exchange's infrastructure had been under attack since the beginning of its operations, and that the latest development represents a new level of escalation aimed at destabilising the domestic financial sector. Grinex is believed to be a rebrand of Garantex, a cryptocurrency exchange that was sanctioned by the U.S. Treasury Department in April 2022 for laundering funds linked to ransomware and darknet markets like Conti and Hydra. The Treasury renewed sanctions against Garantex in August 2025 for processing more than $100 million in illicit transactions and enabling money laundering. According to the Treasury and details shared by blockchain intelligence firms Elliptic and TRM Labs, Garantex is said to have moved its customer base to Grinex in response to the sanctions and remained operational by using a ruble-backed stablecoin called A7A5. In a report published earlier this February, Elliptic also disclosed that Rapira, a Georgia-incorporated exchange with an office in Moscow, has engaged in direct cryptoasset transactions to and from Grinex totaling more than $72 million, highlighting how exchanges with ties to Russia continue to enable sanctions evasion. The British blockchain analytics firm said the Grinex asset theft occurred on April 15, 2026, at around 12:00 UTC, and that the stolen funds were subsequently sent to further accounts on the TRON or Ethereum blockchains. "This USDT was then converted to another asset, either TRX or ETH. By doing so, the thief avoided the risk of the stolen USDT being frozen by Tether," it added. TRM Labs has identified about 70 addresses connected to the incident, noting that TokenSpot, a Kyrgyzstan-based exchange that likely operates as a front for Grinex, was simultaneously impacted. On the same day Grinex suffered the breach, TokenSpot posted on its Telegram channel that the platform would be temporarily unavailable due to technical maintenance. On April 16, it announced that full operations had resumed. The attacker is estimated to have stolen less than $5,000 from TokenSpot. The funds were routed through two TokenSpot addresses to the same consolidation address used by the Grinex-linked wallets. Chainalysis, in its own breakdown of the incident, said the stablecoin funds were quickly swapped for a non-freezable token and that this "frantic swapping" from stablecoins to more decentralized tokens is a tactic adopted by bad actors to launder their illicit proceeds before the assets can be frozen. "Given the exchange's heavily sanctioned status, its restricted ecosystem, and the on-chain use of Garantex’s preferred obfuscation techniques, it is worth considering if this incident could be a false flag attack," it said . "Whether this event represents a legitimate exploit by cybercriminals or an orchestrated false flag operation by Russia-linked insiders, the disruption of Grinex deals a significant blow to the infrastructure supporting Russian sanctions evasion." Rethink AppSec for AI driven attacks. Learn how to close patch gaps and prioritize vulnerabilities against automated exploitation at scale. Secure AI agents by finding hidden identities, removing excess access, and preventing orphaned credentials from exposing your environment at runtime. Get the latest news, expert insights, exclusive resources, and strategies from industry leaders – all for free.
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-04-19*
