@@ -1,0 +1,25 @@
++++
+title = "CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks"
+date = "2026-05-26T13:59:43.200722Z"
+tags = ["security", "certification"]
+description = "The Indian Computer Emergency Response Team (CERT-In) has issued new guidelines requiring organizations to patch critical security vulnerabilities in "
+canonicalURL = "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html"
++++
+
+CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+The Indian Computer Emergency Response Team (CERT-In) has issued new guidelines requiring organizations to patch critical security vulnerabilities in internet-exposed systems within 12 hours of being flagged where "feasible" to safeguard against potential threats stemming from threat actors' abuse of artificial intelligence (AI) tools and large language models (LLMs) to automate vulnerability discovery and exploitation, and enhance the scale and velocity of cyber attacks. "AI-assisted cyber exploitation reduces the time required for adversaries to identify, weaponize, and exploit vulnerabilities, exposed services, weak identities, insecure APIs, and misconfigured systems," CERT-In said in a 38-page blueprint published Monday. "As organizations become increasingly dependent on interconnected digital infrastructure, cloud ecosystems, software supply chains, operational technologies, and AI-enabled platforms, the potential impact of AI-enabled cyber threats continues to increase across sectors." With threat actors beginning to increasingly rely on AI for a wide range of tasks, including attack surface discovery, exploit analysis, convincing phishing content, and even malware generation, they can significantly compress attack preparation timelines and bypass traditional security controls. Furthermore, AI-enabled systems may themselves become targets of malicious attacks via prompt injections, data leakage vulnerabilities, jailbreaking techniques, model manipulation, training data poisoning, model theft, and orchestration pipeline compromises, effectively undermining their confidentiality and integrity. CERT-In has warned that organizations should expect exploitation timelines to collapse significantly and attacks to become autonomous, necessitating the need for adopting heightened cybersecurity measures that involve continuous threat assessment, proactive exposure reduction, and operational preparedness. Some of the defensive principles outlined by the cybersecurity agency to reduce exposure and better respond to AI-assisted cyber threats are listed below - "Organizations should implement layered, risk-based, and continuously validated technical controls to reduce exposure to AI-assisted cyber threats," CERT-In said. "Controls should prioritise protection of internet-facing systems, critical business applications, identities, cloud environments, APIs, sensitive data, AI-enabled systems, and operational infrastructure." The agency is also urging organizations to embrace "continuous, risk-based vulnerability and patch management practices" to reduce exposure arising from security flaws, misconfigurations, insecure APIs, publicly-accessible services, and weak identities. To that end, known exploited vulnerabilities affecting internet-facing and critical systems should be remediated within 12 hours where applicable. Other risk-based remediation times are as follows - In scenarios where no patches are immediately available, it's advised to implement temporary mitigations such as isolation, access restriction, WAF/API protection, enhanced monitoring, or feature disablement until the fix is released. "Given the rapidly evolving nature of AI-assisted cyber threats, organisations should continuously reassess exposure, validate security controls, strengthen resilience capabilities, and enhance operational preparedness through ongoing audits, monitoring, testing, and coordinated cybersecurity governance," CERT-In said. The blueprint arrives a month after CERT-In released an advisory warning of the growing cyber capabilities of frontier AI models from Anthropic and OpenAI , stating how their "dual-use nature" could "lower the barrier to entry for malicious cyber actors and be leveraged to accelerate attack execution, automate exploitation workflows and scale cyber campaigns." "Keeping pace with frontier AI-driven cyber developments is critical for maintaining cyber resilience," it added. "Baseline cybersecurity controls remain critical and should be rigorously enforced." Learn practical strategies to detect and defend against cyber threats beyond zero-day vulnerabilities. Learn how to validate automated pentesting results for accurate security decisions. Get the latest news, expert insights, exclusive resources, and strategies from industry leaders, all for free.
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-05-26*
