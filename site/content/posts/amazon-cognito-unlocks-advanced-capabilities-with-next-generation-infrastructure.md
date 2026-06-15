@@ -1,0 +1,25 @@
++++
+title = "Amazon Cognito unlocks advanced capabilities with next-generation infrastructure"
+date = "2026-06-15T15:01:17.113737Z"
+tags = ["security", "certification"]
+description = "Amazon Cognito recently introduced high-throughput performance for demanding workloads, customer-managed keys for full control over data encryption at"
+canonicalURL = "https://aws.amazon.com/blogs/security/amazon-cognito-unlocks-advanced-capabilities-with-next-generation-infrastructure/"
++++
+
+Amazon Cognito unlocks advanced capabilities with next-generation infrastructure — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+Search AWS Blogs Amazon Cognito recently introduced high-throughput performance for demanding workloads, customer-managed keys for full control over data encryption at rest, and multi- Region replication for business continuity improvement. These capabilities were made possible through a next-generation storage infrastructure designed for extensibility and scale. To deliver this, we migrated hundreds of millions of user profiles, and you probably didn’t even notice. In this post, we walk through what’s new, the architecture behind it, and how we got here with a zero-downtime migration that kept your applications running. The migration to the new infrastructure wasn’t just about maintaining existing functionality—it created the foundation for delivering capabilities that solve customer challenges while positioning Amazon Cognito for continuous improvements. High-throughput performance : The new architecture supports the higher request volumes and scale requirements of modern applications while maintaining the low latency performance that your applications depend on—able to support tens of millions of users per user pool and thousands of transactions per second (TPS). Customer-managed keys : Customers can now use their own encryption keys stored in AWS Key Management Service (AWS KMS) for encrypting data at rest. This provides enhanced security control and capabilities, giving customers full ownership over their encryption key lifecycle. Multi-Region replication : Customers can now synchronize their entire user pool data, including user passwords, attributes, and configurations to another user pool in another Region of their choice. This means that customers can implement business continuity strategies and maintain authentication availability in case of a Regional failover, helping their applications remain accessible to users even during unexpected disruptions. The new architecture uses a purpose-built storage layer designed for extensibility and scale of identity operations. We anchored the new architecture around a set of design tenets: These tenets shaped every architectural decision. The architecture separates into independently deployable domains. Previously, while using Amazon Cloud Directory , the service architecture relied on a single data store to persist all customer information. This provided straightforward data traversal mechanisms but required multi-service coordination to adjust database schema when new features were required. The new architecture uses different datasets, allowing them to evolve independently for faster feature iterations. Migrating users requires extreme precautions and a strategy designed to maintain zero downtime and ensure data integrity at every step. Our approach prioritizes both immediate stability and long-term flexibility through the following measures: This modernization taught us valuable principles that apply to any large-scale infrastructure project, therefore we choose to share these learnings to help you perform similar migrations. In this post, we shared the high-level approach and learnings from the Amazon Cognito infrastructure modernization that create a foundation for modern identity management capabilities. The new Cognito infrastructure is live, delivering capabilities such as customer-managed keys and multi-Region replication. As the migration continues, all Cognito customers will gain access to these capabilities on the same service they rely on today, with no action required. Ready to modernize your authentication infrastructure? Visit Amazon Cognito to learn more. If you have feedback about this post, submit comments in the Comments section below. Howie is a Product Manager at Amazon Web Services, where he strives to make auth easy by default. Outside of work, Howie enjoys exploring cultures and food through travels and making new ice cream flavors inspired by them. Georgi is a Principal Engineer at Amazon Web Services, where he builds identity systems that help organizations securely manage access and authentication at scale. His broader focus is on reliable, high-impact infrastructure that enables customers to operate confidently in the cloud. Outside of work, Georgi enjoys experimenting with new matcha latte recipes and going on long bike rides. Loading comments…
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-06-15*
