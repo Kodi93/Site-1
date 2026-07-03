@@ -1,0 +1,25 @@
++++
+title = "Kubota says hackers had month-long access to network systems"
+date = "2026-07-03T13:31:48.350353Z"
+tags = ["security", "certification"]
+description = "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]"
+canonicalURL = "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/"
++++
+
+Kubota says hackers had month-long access to network systems — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+CISA: Windows BlueHammer flaw now exploited by ransomware gangs Kali Linux 2026.2 released with 9 new tools, NetHunter updates Microsoft adds smarter bot protection to Teams meetings New BioShocking attack manipulates AI browser into data theft Why pay monthly? Get access to ChatGPT, Claude & more for a one-time $70. Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says Claude Fable relaunch disappoints users with nerfed performance A one-time $20 gets you lifetime access to 1,000+ StackSkills courses How to access the Dark Web using the Tor Browser How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to use the Windows Registry Editor How to backup and restore the Windows Registry How to start Windows in Safe Mode How to remove a Trojan, Virus, Worm, or other Malware How to show hidden files in Windows 7 How to see hidden files in Windows Qualys BrowserCheck STOPDecrypter AuroraDecrypter FilesLockerDecrypter AdwCleaner ComboFix RKill Junkware Removal Tool eLearning IT Certification Courses Gear + Gadgets Security Best VPNs How to change IP address Access the dark web safely Best VPN for YouTube Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. Following an investigation into the incident, the company determined that between March 16 and April 20 the threat actor accessed files with personal information for employees and their dependents. Kubota is a Japanese industrial manufacturer known for its agricultural and construction equipment. It operates in 120 countries, employs more than 52,000 people, and has a reported annual revenue of $20 billion. Its North American division includes facilities that produce tractors, mowers, and utility vehicles. According to the announcement posted on the Kubota USA site, the following employee data may have been exposed: The exact data types exposed vary per individual, and Kubota started sending personalized notifications via email on June 30, informing each individual about the specific impact on them. The notifications include instructions for enrolling in Kroll identity protection to help victims mitigate the risks arising from the exposure of their sensitive data. In the letters, Kubota specifically advises recipients to monitor healthcare-related statements, as well as bank accounts, and to immediately report any suspicious activity to the authorities. Kubota says it has implemented additional security measures to prevent similar incidents in the future. At the time of writing, no data extortion groups or ransomware gangs have assumed responsibility for the attack at Kubota. The company did not mention facing any operational or business disruptions as a result of this incident. BleepingComputer has contacted Kubota to ask for more information about the perpetrators and the nature of the attack, but we have not received a response by publication time. Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Ex-school district employee jailed for hacks on former employer UN food agency discloses breach affecting 600,000 Gaza households PowerSchool hacker claims they stole data of 62 million students PowerSchool hack exposes student, teacher data from K-12 districts Medtronic notifies customers impacted by ShinyHunters data breach Not a member yet? Register Now Hackers target Microsoft 365 accounts with 81 million login attempts DHS confirms hackers breached HSIN info-sharing platform CISA: Windows BlueHammer flaw now exploited by ransomware gangs Build a GRC agent in minutes, no code. Get early access to Agent Studio. See how Pixellot discovered and secured hundreds of unmanaged AI agent identities in weeks, not months. Read the case study. Stay one step ahead of new threats in the new year. Join Huntress for the monthly Tradecraft Tuesday. CTI Starter Kit + 2026 SANS CTI Survey Turn Indicators into Actionable Intelligence in OpenCTI with Criminal IP Terms of Use - Privacy Policy - Ethics Statement - Affiliate Disclosure Copyright @ 2003 - 2026 Bleeping Computer ® LLC - All Rights Reserved Not a member yet? Register Now Read our posting guidelinese to learn what content is prohibited.
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-07-03*
