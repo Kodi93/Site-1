@@ -1,0 +1,25 @@
++++
+title = "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities"
+date = "2026-07-22T13:30:38.449794Z"
+tags = ["security", "certification"]
+description = "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash th"
+canonicalURL = "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html"
++++
+
+Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber , a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively available to governments and trusted partners via CodeMender as part of a limited-access pilot program. CodeMender is an AI-powered agent for vulnerability discovery and patching that was unveiled by the company in October 2025. A Google DeepMind spokesperson told The Hacker News that there are plans to extend the model's capabilities to include red-teaming features and end-to-end enterprise defense. The lightweight model, per DeepMind, is both cost-efficient and highly capable alternative to large, costly cybersecurity-focused models. CodeMender can call upon 3.5 Flash Cyber "multiple times at high speed and low cost," allowing the AI agent to scan more code paths and find vulnerabilities. The release of 3.5 Flash Cyber comes alongside Gemini 3.6 Flash and 3.5 Flash-Lite , which are optimized for improved coding, knowledge work, and multimodal performance and low-latency tasks, respectively. "Given the dual-use nature of this technology, we have taken an intentional approach to how we deploy 3.5 Flash Cyber," Raluca Ada Popa, DeepMind's Gemini Security Lead, and Four Flynn, vice president of security and privacy at DeepMind, said in a blog post shared with The Hacker News ahead of publication. "As part of a limited-access pilot program, 3.5 Flash Cyber will be exclusively available to governments and trusted partners via CodeMender, expanding over time. This will give frontline defenders a head start in finding and fixing critical vulnerabilities before they can be exploited, while mitigating against broader misuse." Since 3.5 Flash Cyber runs solely inside CodeMender, it's easy to set guardrails that enable the AI agent's defense functions while disabling other cyber activity, the spokesperson added. This is to prevent scenarios where a model refuses to handle scenarios that prohibit defenders from performing AI-assisted forensic analysis. In evaluations conducted by the AI research laboratory, 3.5 Flash Cyber has been found to outperform Gemini 3.5 Flash and 3.6 Flash when it comes to unearthing new vulnerabilities in codebases. Additional stress-testing of the model on complex projects like Google Chrome and Apple Safari has revealed it to have "significantly" surpassed Gemini 3.5 Flash, 3.6 Flash, and Anthropic Claude Opus 4.6. "3.5 Flash Cyber consistently discovered more unique vulnerabilities compared with 3.5 Flash and Claude Opus 4.6," it pointed out. "When tested on the highly complex V8 JavaScript Engine across a fixed number of invocations, Gemini 3.5 Flash Cyber found 55 unique confirmed issues, compared to 47 found by Gemini 3.5 Flash and 36 found by Opus 4.6, including 10 issues that no other model caught." Like in the case of Anthropic and OpenAI , Google has put 3.5 Flash Cyber to the test to uncover remote code execution vulnerabilities in public APIs and a memory-corruption vulnerability in a sensitive production service. The model is also said to have produced a 100% reliable remote-code execution exploit that bypassed standard mitigation techniques like Address Space Layout Randomization (ASLR) and Write XOR Execute (W^X). Google said it's separately bringing CodeMender's foundational capabilities directly to customers with generally available Gemini models through the Gemini Enterprise Agent Platform . "By powering CodeMender with 3.5 Flash Cyber, we're providing a highly capable, scalable, and affordable architecture designed to help more defenders secure software," it added. Learn how to secure AI agents with practical controls for access, visibility, secrets, and risk containment. Learn how to govern risk, secure AI-built software, and keep control as development moves at machine speed. Get the latest news, expert insights, exclusive resources, and strategies from industry leaders, all for free.
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-07-22*
