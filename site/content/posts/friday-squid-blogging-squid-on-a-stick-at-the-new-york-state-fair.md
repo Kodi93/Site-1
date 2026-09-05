@@ -1,0 +1,30 @@
++++
+title = "Friday Squid Blogging: Squid on a Stick at the New York State Fair"
+date = "2026-09-05T13:03:14.031858Z"
+tags = ["security", "certification"]
+description = "<p>Looks <a href="https://www.syracuse.com/statefair/2026/08/day-2-at-the-nys-fair-todays-handpicked-menu-starts-with-a-whole-squid-on-a-stick-and-get"
+canonicalURL = "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html"
++++
+
+Friday Squid Blogging: Squid on a Stick at the New York State Fair — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+Powered by DuckDuckGo Home Blog Looks tasty . As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy. Tags: squid Posted on September 4, 2026 at 5:01 PM • 10 Comments Weather • September 4, 2026 5:38 PM I can supply the chemical formula trump is to come down with. Anonymous • September 4, 2026 7:54 PM pee pee from my wee wee lollipop guild • September 4, 2026 7:57 PM everytime you lick my lollipop i smile. lick that lollipop! OH YEAH! OH YEAHYEAHYEAHYEAHYEAH ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛⬛ ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛⬛⬛⬛ ⬛⬛⬛🟨⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛🟨⬛⬛⬛ ⬛⬛⬛🟨🟨⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛⬛🟨🟨⬛⬛⬛ ⬜⬛⬛🟨🟨🟨🟨⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛🟨🟨🟨🟨⬛⬛⬜ ⬜⬛⬛🟨🟨🟨🟨🟨⬛⬛⬜⬜⬛⬛⬛⬛⬜⬜⬛⬛🟨🟨🟨🟨🟨⬛⬛⬜ ⬜⬜⬛🟨🟨🟨🟨🟨🟨🟨⬛⬛🟨🟨🟨🟨⬛⬛🟨🟨🟨🟨🟨🟨🟨⬛⬜⬜ ⬜⬜⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬜⬜ ⬜⬜⬜⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬜⬜⬜ ⬜⬜⬜⬜⬛🟨⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛🟨⬛⬜⬜⬜⬜ ⬜⬜⬜⬜⬜⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬜⬜⬜⬜⬜ ⬜⬜⬜⬜⬜⬛🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨⬛⬜⬜⬜⬜⬜ ⬜⬜⬜⬜⬛🟨🟨🟨⬛⬛🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛🟨🟨🟨⬛⬜⬜⬜⬜ ⬜⬜⬜⬜⬛🟨🟨⬛⬜⬛⬛🟨🟨🟨🟨🟨🟨⬛⬛⬜⬛🟨🟨⬛⬜⬜⬜⬜ ⬜⬜⬜⬜⬛🟨🟨⬛⬛⬛⬛🟨🟨🟨🟨🟨🟨⬛⬛⬛⬛🟨🟨⬛⬜⬜⬜⬜ ⬜⬜⬜⬜⬛🟨🟨🟨⬛⬛🟨🟨🟨⬛⬛🟨🟨🟨⬛⬛🟨🟨🟨⬛⬜⬜⬜⬜ ⬜⬜⬜⬛🟨🟨🟥🟥🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟨🟥🟥🟨🟨⬛⬜⬜⬜ ⬜⬜⬜⬛🟨🟥🟥🟥🟥🟨🟨⬛🟨⬛⬛🟨⬛🟨🟨🟥🟥🟥🟥🟨⬛⬜⬜⬜ ⬜⬜⬜⬛🟨🟥🟥🟥🟥🟨🟨🟨⬛⬛⬛⬛🟨🟨🟨🟥🟥🟥🟥🟨⬛⬜⬜⬜ ⬜⬜⬜⬜⬛🟨🟥🟥🟨🟨🟨🟨⬛🟥🟥⬛🟨🟨🟨🟨🟥🟥🟨⬛⬜⬜⬜⬜ ⬜⬜⬜⬜⬜⬛🟨🟨🟨🟨🟨🟨⬛🟥🟥⬛🟨🟨🟨🟨🟨🟨⬛⬜⬜⬜⬜⬜ ⬜⬜⬜⬜⬜⬜⬛⬛🟨🟨🟨🟨🟨⬛⬛🟨🟨🟨🟨🟨⬛⬛⬜⬜⬜⬜⬜⬜ ⬜⬜⬜⬜⬜⬜⬜⬜⬛⬛⬛🟨🟨🟨🟨🟨🟨⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜ ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ BURN SATAN BURN • September 4, 2026 8:35 PM F U K K THE SHRINERS and FREEMASONS – THAT IS THE WORST FILTH OF THIS PLANET! JUST PLAIN AND SIMPLE HUMAN GARBAGE !!!!!! GratefulReader • September 4, 2026 9:44 PM Hey Bruce, Happy Friday! I caught your “DEF CON 34 – Hacking AI” talk on YouTube… awesome perspectives… loved the “Genies” analogy, the idea that we humans have always been hackers, with examples of those pen/paper ways it has been so all along… i.e., loopholes and all. Really enjoyable, thought-provoking. Anyway, that’s my quick Friday squid comment… have a great weekend! r • September 4, 2026 11:14 PM https://natlawreview.com/article/when-ai-enters-group-chat-protecting-privileged-and-confidential-communications-age Weather • September 5, 2026 4:17 AM Sorry about September 11th, i was 16, may they rest in peace. Weather • September 5, 2026 4:56 AM It was meant to be the hoover dam, but they did research thmite. ResearcherZero • September 5, 2026 5:36 AM China has ramped up espinoage and recruitment of assets within the U.S. A recent spate of drone flights near military bases has led to investigations and arrests, but determining if those operating the drones are connected with intentionally spying on bases for a foreign country, or engaged in purely innocent or largely harmless activity is proving difficult. Others think the threat is overblown. With little evidence to go on, its is difficult to make a conclusion. Evidence gathering is hampered by a lack of standards and training. ‘https://edition.cnn.com/2026/08/31/politics/drone-incursions-us-bases-chinese-spies Training for counter-intelligence, police and government officials needs to improve. https://www.foxnews.com/opinion/congress-huge-target-spies-members-staff-need-wake-call-training Western allies are facing growing activity which targets those working in parliament. https://www.chathamhouse.org/2025/10/china-spy-case-shows-uk-must-do-more-tackle-chinese-espionage-and-influence-operations ResearcherZero • September 5, 2026 5:47 AM The problems of agentic misalignment in the counter-intelligence environment. The military and intelligence services are looking to AI to improve capabilities. Will these new tools actually fulfill the purposes they are tasked with and will the information that these tools supply be reliable? Is the quality of data supplied for training these systems even up to the task, or do improvements in the standards of intelligence gathering and handling need to be improved, before the training data and those that supply it can be judged as accurate and reliable? ‘https://www.lawfaremedia.org/article/the-next-counterintelligence-problem-is-artificial DHS and law enforcement workforce is unprepared for new developments in technology and AI. https://academic.oup.com/cybersecurity/article/10/1/tyae002/7602882 95% of reports shared by local police with the FBI are never investigated . https://truthout.org/articles/report-finds-police-intelligence-gathering-tactics-threaten-national-security/ Subscribe to comments on this entry Blog moderation policy Name Email URL: Remember personal info? Fill in the blank: the name of this blog is Schneier on \_\_\_\_\_\_\_\_\_\_\_ (required): Allowed HTML  [•  **•  ****•  •
+
+1. •
+   > ```
+   >  Markdown Extra syntax via https://michelf.ca/projects/php-markdown/extra/ Notify me of new posts by email. Δ document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() ); Sidebar photo of Bruce Schneier by Joe MacInnis. Powered by WordPress Hosted by Pressable I am a public-interest technologist , working at the intersection of security, technology, and people. I've been writing about security issues on my blog since 2004, and in my monthly newsletter since 1998. I'm a fellow and lecturer at Harvard's Kennedy School , a board member of EFF , and the Chief of Security Architecture at Inrupt, Inc. This personal website expresses the opinions of none of those organizations. Contact Info More Essays More Tags More Books
+   > ```******](URL)
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-09-05*
