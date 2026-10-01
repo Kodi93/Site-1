@@ -1,0 +1,25 @@
++++
+title = "Agentic security: Detection and response at machine speed"
+date = "2026-10-01T13:08:24.840496Z"
+tags = ["security", "certification"]
+description = "After talking with enterprise security leaders over the past year, one thing has become clear: the rise of autonomous AI agents is the most significan"
+canonicalURL = "https://aws.amazon.com/blogs/security/agentic-security-detection-and-response-at-machine-speed/"
++++
+
+Agentic security: Detection and response at machine speed — summary and exam-relevant notes.
+
+## Key Points
+- Key insight 1
+- Key insight 2
+- Key insight 3
+
+## Details
+Search AWS is the world's most comprehensive cloud, enabling organizations to accelerate innovation, reduce costs, and scale more efficiently Migrate to modernize → Modernize to unlock data → unlock data to run AI Get started with one of these featured services or browse all From startups to enterprises, find AWS solutions scaled to your needs. Access tailored resources, pricing models, and support levels. AWS Blogs After talking with enterprise security leaders over the past year, one thing has become clear: the rise of autonomous AI agents is the most significant shift in security posture since the move to cloud. Organizations across every industry are adopting AI agents that authenticate on behalf of users, execute multistep workflows, and make decisions across infrastructure, often without waiting for human approval. Security operations need to keep pace. At Amazon Web Services (AWS) , we believe security should evolve ahead of AI adoption, not behind it. That belief drove our team to collaborate with the SANS Institute on a new chapter in the 2026 Cloud Security Exchange eBook , where we lay out a practical framework for securing agentic workloads at enterprise scale. Traditional security was built for deterministic systems with predictable inputs and outputs. Agentic workloads break those assumptions. The same prompt can produce a compliant response on one request and a policy-violating response on the next. Agents adapt their behavior over time as they interact with users, data, and tools and operate with genuine autonomy: connecting to APIs, chaining actions together, and making independent decisions. These properties mean that security controls designed for one-time assessments no longer suffice. Detection and response need to operate continuously and at machine speed. What makes this urgent is the gap between adoption velocity and security maturity. Although 80% of organizations have adopted AI, only 10% govern it. Agents are being built by an expanding population of developers—including those using low-code tools—creating governance challenges that existing security programs must be extended to address. The good news, agentic security isn’t a blank slate. It builds on the same principles security teams already apply: identity governance, least privilege, defense in depth, and backup and recovery. What changes is how those principles are implemented when workloads are autonomous and probabilistic. In our eBook chapter, we cover four foundational areas: The security leaders I speak with aren’t asking whether to adopt AI agents. They’re asking how to adopt them responsibly, at speed, and without slowing down the business. AWS approaches this challenge by building security into the platform at every layer. Agentic AI built on AWS inherits nearly two decades of experience securing mission-critical workloads. Amazon GuardDuty , Amazon Inspector , and AWS Security Hub work together to provide continuous threat detection, vulnerability management, and unified security operations, all adapting to the unique characteristics of agentic workloads. This isn’t about building new security from scratch. It’s about extending the security foundations your teams already trust into an environment where AI operates with increasing autonomy. Our chapter in the 2026 Cloud Security Exchange eBook goes deeper on each of these areas, with specific architectural patterns, implementation guidance, and frameworks for security teams at every stage of agentic AI maturity, whether you’re evaluating, piloting, or operating at scale. Read the 2026 Cloud Security Exchange eBook: Agentic Security: Detection and Response at Machine Speed You can learn more about AWS security services at AWS Cloud Security , or explore our AI Security Framework for a comprehensive view of how AWS secures AI workloads with the right controls, at the right layers, at the right phases. If you have feedback about this post, submit comments in the Comments section below. Gee is the Vice President of Agentic Security at AWS. He holds a PhD from MIT and brings extensive leadership experience across enterprise security and cloud. He previously served as CEO of Skyhigh Security and Senior Vice President and General Manager of Cisco’s Security Business Group, where he was responsible for Cisco’s worldwide cybersecurity business. Loading comments…
+
+
+
+{{< aff "training_partner" "Recommended course" >}}
+
+{{< aff "vpn_vendor" "Try a VPN deal" >}}
+
+*Updated: 2026-10-01*
